@@ -23,7 +23,7 @@
     package="com.example.android.rssreader">
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="RSS Reader">
-        <activity android:name="RssReader">
+        <activity android:name="RssReader" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
