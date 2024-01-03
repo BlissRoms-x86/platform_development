@@ -20,7 +20,8 @@
     <application android:label="MultiClientInputMethod">
         <service android:name=".MultiClientInputMethod"
             android:label="MultiClientInputMethod"
-            android:permission="android.permission.BIND_INPUT_METHOD">
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.inputmethodservice.MultiClientInputMethodService"/>
             </intent-filter>
